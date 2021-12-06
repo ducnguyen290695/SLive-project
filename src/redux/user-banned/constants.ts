@@ -1,0 +1,8 @@
+/**
+ * @description all const type of user banned page
+ */
+export const RESET_ALL = 'USER_BANNED/RESET';
+
+export const GET_ALL_USER_BANNED = 'USER_BANNED/GET_ALL_USER_BANNED';
+export const GET_ALL_USER_BANNED_SUCCESS = 'USER_BANNED/GET_ALL_USER_BANNED_SUCCESS';
+export const GET_ALL_USER_BANNED_FAILED = 'USER_BANNED/GET_ALL_USER_BANNED_FAILED';

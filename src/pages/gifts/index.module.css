@@ -1,0 +1,12 @@
+.idTag {
+  padding: 3px;
+  min-width: 50px;
+  text-align: center;
+  background-color: #c2ebfc;
+  border-radius: 20px;
+}
+
+.gifImage {
+  height: 50px;
+  width: 50px;
+}

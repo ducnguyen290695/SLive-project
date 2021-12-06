@@ -1,0 +1,23 @@
+{
+  "deposit": "Deposit",
+  "withDraw": "With draw",
+  "convert": "Convert",
+  "buyGift": "Buy gift",
+  "receiveGift": "Receive gift",
+  "gameReward": "Game reward",
+  "gameDeposit": "Game deposit",
+  "pending": "Pending",
+  "approved": "Approved",
+  "success": "Success",
+  "rejected": "Rejected",
+  "failed": "Failed",
+  "cancelled": "Cancelled",
+  "day": "day",
+  "week": "week",
+  "month": "month",
+  "dateRange": "Please select date range",
+  "type": "Type",
+  "amount": "Amount",
+  "currencyUnit": "Currency unit",
+  "total_amount": "Total amount"
+}

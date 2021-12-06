@@ -1,0 +1,19 @@
+.tagStatus {
+    padding: 3px 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.green {
+    background-color: #17bf63;
+    color: #fff;
+}
+.orange {
+    background-color: #f2a71b;
+    color: #fff;
+}
+.red {
+    background-color: #f00;
+    color: #fff;
+}

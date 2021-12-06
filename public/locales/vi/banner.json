@@ -1,0 +1,10 @@
+{
+  "banner_name": "Tên ảnh bìa",
+  "image": "Hình ảnh",
+  "add_banner": "Thêm ảnh bìa",
+  "type_error": "Sai loại ảnh",
+  "size_error": "Lỗi kích cỡ",
+  "type_image_invalid": "Loại của hình ảnh không hợp lệ!",
+  "image_too_big": "Hình ảnh quá lớn!",
+  "edit_banner": "Chỉnh sửa ảnh bìa"
+}

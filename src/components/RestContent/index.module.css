@@ -1,0 +1,23 @@
+.searchSection {
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 50%;
+}
+
+/* -----------------------------------For Mobile----------------------------------------- */
+@media only screen and (max-width: 767px) {
+  .column {
+    width: 100%;
+  }
+
+  .row {
+    display: unset;
+  }
+}

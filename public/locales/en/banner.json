@@ -1,0 +1,10 @@
+{
+  "banner_name": "Name",
+  "image": "Image",
+  "add_banner": "Add banner",
+  "type_error": "Type error",
+  "size_error": "Size error",
+  "type_image_invalid": "Type of image is invalid!",
+  "image_too_big": "Image is too big!",
+  "edit_banner": "Edit banner"
+}

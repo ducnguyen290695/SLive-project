@@ -1,0 +1,19 @@
+version: "3.8"
+
+networks: 
+    slive: 
+
+services: 
+    cms: 
+        image: registry.gitlab.com/s-live/cms:stag-latest
+        build: 
+            context: .
+            args: 
+                - API_URL=https://stag.slivepay.com/api/v1
+            dockerfile: Dockerfile
+        networks: 
+            - slive
+        environment: 
+            - API_URL=https://stag.slivepay.com/api/v1
+        ports: 
+            - 3000:3000

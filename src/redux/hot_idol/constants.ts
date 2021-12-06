@@ -1,0 +1,12 @@
+/**
+ * @description all const type of hot idol page
+ */
+export const RESET_ALL = 'HOT_IDOL/RESET';
+
+export const GET_ALL_HOT_IDOL = 'HOT_IDOL/GET_ALL_HOT_IDOL';
+export const GET_ALL_HOT_IDOL_SUCCESS = 'HOT_IDOL/GET_ALL_HOT_IDOL_SUCCESS';
+export const GET_ALL_HOT_IDOL_FAILED = 'HOT_IDOL/GET_ALL_HOT_IDOL_FAILED';
+
+export const CREATE_HOT_IDOL = 'HOT_IDOL/CREATE_HOT_IDOL';
+export const CREATE_HOT_IDOL_SUCCESS = 'HOT_IDOL/CREATE_HOT_IDOL_SUCCESS';
+export const CREATE_HOT_IDOL_FAILED = 'HOT_IDOL/CREATE_HOT_IDOL_FAILED';

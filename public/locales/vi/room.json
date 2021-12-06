@@ -1,0 +1,10 @@
+{
+  "room_name": "Tên phòng",
+  "memberInRoom": "Thành viên trong phòng",
+  "category": "Thể loại",
+  "owner": "Người sở hữu",
+  "edit_modal" : "Sửa",
+  "closed": "Đã đóng",
+  "broadcasting": "Đang trực tiếp",
+  "prepare": "Đang chuẩn bị"
+}

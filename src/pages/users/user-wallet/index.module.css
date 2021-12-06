@@ -1,0 +1,95 @@
+.green {
+    background-color: #17bf63;
+    color: #fff;
+}
+
+.orange {
+    background-color: #f2a71b;
+    color: #fff;
+}
+
+.red {
+    background-color: #f00;
+    color: #fff;
+}
+
+.gray {
+    background-color: #d6d2d2;
+    color: #000;
+}
+
+.approved {
+    background-color: #4ebef2;
+    color: #fff;
+}
+
+.rejected {
+    background-color: #f5a39a;
+    color: #fff;
+}
+
+.tagDiv {
+    /*min-width: 50%;*/
+    padding: 3px 8px;
+    margin: 0px auto;
+}
+
+.colorRed {
+    color: red;
+}
+
+.colorGreen {
+    color: #17bf63;
+}
+
+.rowSearch {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.totalAmount {
+    margin-right: 10px;
+}
+
+.tagCurrency {
+    padding: 3px;
+    margin: 0 3px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    align-items: center;
+}
+
+.gold {
+    border-color: #FBAF1D;
+    color: #FBAF1D;
+    background-color: rgba(251, 174, 43, 0.05);
+}
+
+.diamond {
+    border-color: #22DEFF;
+    color: #22DEFF;
+    background-color: rgba(34, 222, 255, 0.05);
+}
+
+.red {
+    border-color: red;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+.link {
+    color: #3EA4F7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.detailContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+}

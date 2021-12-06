@@ -1,0 +1,19 @@
+{
+  "account": "Account",
+  "account_type": "Account type",
+  "transactions": "Transactions",
+  "amount": "Amount",
+  "birthday": "Birthday",
+  "gender": "Gender",
+  "bank": "Bank",
+  "note": "Note",
+  "waiting": "Waiting",
+  "approved": "Approve",
+  "rejected": "Reject",
+  "success": "Success",
+  "failed": "Failed",
+  "retry": "Retry",
+  "user_id": "User id",
+  "transaction_id": "Transaction id",
+  "user_detail": "User detail"
+}

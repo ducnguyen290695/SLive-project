@@ -1,0 +1,23 @@
+{
+  "deposit": "Nạp",
+  "withDraw": "Rút tiền",
+  "convert": "Chuyển đổi",
+  "buyGift": "Mua quà tặng",
+  "receiveGift": "Nhận quà tặng",
+  "gameReward": "Phần thưởng game",
+  "gameDeposit": "Cược game",
+  "pending": "Đang chờ",
+  "approved": "Đã phê duyệt",
+  "success": "Thành công",
+  "rejected": "Đã từ chối",
+  "failed": "Thất bại",
+  "cancelled": "Huỷ bỏ",
+  "day": "ngày",
+  "week": "tuần",
+  "month": "tháng",
+  "dateRange": "Vui lòng chọn khoảng ngày",
+  "type": "Loại",
+  "amount": "Số tiền",
+  "currencyUnit": "Đơn vị tiền",
+  "total_amount": "Tổng số tiền"
+}

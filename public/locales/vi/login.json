@@ -1,0 +1,18 @@
+{
+  "phone_number": "Số điện thoại",
+  "require_phone": "Số điện thoại là bắt buộc!",
+  "password": "Mật khẩu",
+  "require_password": "Mật khẩu là bắt buộc!",
+  "login_gg_failed": "Đăng nhập với Google thất bại!",
+  "login_fb_failed": "Đăng nhập với Facebook thất bại!",
+  "login_failed": "Đăng nhập thất bại!",
+  "remember_me": "Ghi nhớ đăng nhập",
+  "forgot_password": "Quên mật khẩu?",
+  "login": "Đăng nhập",
+  "login_with": "Đăng nhập với",
+  "email": "Email",
+  "email_invalid": "Email không hợp lệ!",
+  "sign_in_with_email": "Đăng nhập với email",
+  "sign_in_with_phone_number": "Đăng nhập với số điện thoại",
+  "require_email": "Email là bắt buộc!"
+}

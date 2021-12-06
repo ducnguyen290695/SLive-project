@@ -1,0 +1,63 @@
+.stack {
+  position: fixed;
+  height: 100vh;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  transition: right 0.3s ease;
+  overflow-y: auto;
+}
+
+.stackHeader {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  justify-content: space-between;
+}
+
+.stackHeader > h4 {
+  font-weight: 700;
+}
+.stackHeader svg {
+  font-size: 20px;
+}
+
+.stackHeader svg:hover {
+  cursor: pointer;
+  color: #cc0f0f;
+}
+
+.maskLayer {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 50;
+  cursor: pointer;
+}
+
+/* width */
+.stack::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Handle */
+.stack::-webkit-scrollbar-thumb {
+  background: #cecece;
+  border-radius: 7px;
+}
+
+/* -----------------------------------For Mobile----------------------------------------- */
+@media only screen and (max-width: 767px) {
+  .stack {
+    padding: 0 20px;
+    overflow-x: hidden;
+  }
+
+  .stackHeader {
+    padding: 15px 10px 15px 0;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "birthday": "Ngày sinh",
+  "gender": "Giới tính",
+  "address": "Địa chỉ",
+  "Male": "Nam",
+  "Female": "Nữ",
+  "phone_number": "Số điện thoại",
+  "level_min_0": "Cấp độ không được nhỏ hơn 0",
+  "vip_type": "Loại V.I.P",
+  "level": "Cấp độ",
+  "received_gift": "Quà tặng nhận được",
+  "deposit": "Nạp",
+  "time": "Thời gian",
+  "user_detail": "Chi tiết người dùng"
+}

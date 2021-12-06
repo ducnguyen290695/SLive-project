@@ -1,0 +1,12 @@
+{
+    "user_name": "User name",
+    "user_email": "Email",
+    "user_id": "User ID",
+    "role": "Role",
+    "create_role": "Create Role",
+    "delete_role_confirm": "Do you want delete this role",
+    "create_role_success": "Create role success !",
+    "create_role_fail": "Create role fail !",
+    "delete_role_success": "Delete role success !",
+    "delete_role_fail": "Delete role fail !"
+}

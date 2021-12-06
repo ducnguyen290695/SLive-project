@@ -1,0 +1,21 @@
+{
+  "birthday": "Ngày sinh",
+  "gender": "Giới tính",
+  "address": "Địa chỉ",
+  "Male": "Nam",
+  "Female": "Nữ",
+  "phone_number": "Số điện thoại",
+  "confirm_delete_user": "Bạn có đồng ý xoá người dùng",
+  "delete_user_success": "Xoá người dùng thành công!",
+  "delete_user_failed": "Xoá người dùng thất bại!",
+  "update_user_success": "Cập nhật người dùng thành công!",
+  "update_user_failed": "Cập nhật người dùng thất bại!",
+  "update_user": "Cập nhật người dùng",
+  "update_profile": "Cập nhật thông tin",
+  "avatar": "Ảnh đại diện",
+  "cover": "Ảnh bìa",
+  "update_profile_success": "Cập nhật thông tin thành công!",
+  "update_profile_fail": "Cập nhật thông tin thất bại!",
+  "upload_avatar_fail": "Cập nhật ảnh đại diện thất bại!",
+  "upload_cover_fail": "Cập nhật ảnh bìa thất bại!"
+}

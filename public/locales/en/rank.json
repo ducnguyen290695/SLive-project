@@ -1,0 +1,15 @@
+{
+  "birthday": "Birthday",
+  "gender": "Gender",
+  "address": "Address",
+  "Male": "Male",
+  "Female": "Female",
+  "phone_number": "Phone number",
+  "level_min_0": "Level must be minimum 0",
+  "vip_type": "V.I.P type",
+  "level": "Level",
+  "received_gift": "Received gift",
+  "deposit": "Deposit",
+  "time": "Time",
+  "user_detail": "User detail"
+}

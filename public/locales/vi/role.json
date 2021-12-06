@@ -1,0 +1,12 @@
+{
+    "user_name": "Tên người dùng",
+    "user_email": "Email",
+    "user_id": "ID người dùng",
+    "role": "Quyền",
+    "create_role": "Thêm quyền",
+    "delete_role_confirm": "Bạn có muốn xóa quyền này",
+    "create_role_success": "Tạo quyền thành công !",
+    "create_role_fail": "Tạo quyền thất bại !",
+    "delete_role_success": "Xóa quyền thành công !",
+    "delete_role_fail": "Xóa quyền thất bại !"
+}

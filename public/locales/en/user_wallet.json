@@ -1,0 +1,13 @@
+{
+  "user_detail": "User detail",
+  "birthday": "Birthday",
+  "gender": "Gender",
+  "address": "Address",
+  "Male": "Male",
+  "Female": "Female",
+  "phone_number": "Phone number",
+  "day": "day",
+  "week": "week",
+  "month": "month",
+  "dateRange": "Please select date range"
+}

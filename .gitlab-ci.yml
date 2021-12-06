@@ -1,0 +1,97 @@
+stages:
+  - test
+  - build
+  - deploy_dev
+  - deploy_stag
+  - deploy_prod
+
+variables:
+  TAG_LATEST: $CI_REGISTRY_IMAGE:latest
+  DOCKER_DRIVER: overlay2
+  STACK_DEV_NAME: slive_dev
+  STACK_STAG_NAME: slive_stag
+  STACK_PROD_NAME: slive
+
+test:
+  image: node:14.16.1-alpine3.13
+  stage: test
+  script:
+    - yarn --frozen-lockfile
+    - yarn build
+  tags:
+    - docker
+
+docker-build:
+  image: docker:latest
+  stage: build
+  services:
+    - docker:dind
+  script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+    - docker pull $TAG_LATEST || true
+    - docker build --cache-from=$TAG_LATEST -t $TAG_LATEST -f Dockerfile --build-arg API_URL=https://dev.slivepay.com/api/v1 .
+    - docker push $TAG_LATEST
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /^develop/
+  tags:
+    - docker
+
+deploy_dev:
+  image: docker:latest
+  stage: deploy_dev
+  services:
+    - docker:dind
+  before_script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - apk add openssh-client bash
+    - eval $(ssh-agent -s)
+    - bash -c 'ssh-add <(echo "$SSH_PRIVATE_KEY")'
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" >> ~/.ssh/config'
+  script:
+    - docker -H $SSH_DEV_HOST service update --force ${STACK_DEV_NAME}_cms --image  $TAG_LATEST --with-registry-auth
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /^develop/
+  tags:
+    - docker
+
+deploy_stag:
+  image: docker:latest
+  stage: deploy_stag
+  services:
+    - docker:dind
+  before_script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - apk add openssh-client bash
+    - eval $(ssh-agent -s)
+    - bash -c 'ssh-add <(echo "$SSH_PRIVATE_KEY")'
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" >> ~/.ssh/config'
+  script:
+    - docker -H $SSH_DEV_HOST service update --force ${STACK_STAG_NAME}_cms --image  $TAG_LATEST --with-registry-auth
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /^release/
+  tags:
+    - docker
+
+deploy_prod:
+  image: docker:latest
+  stage: deploy_dev
+  services:
+    - docker:dind
+  before_script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - apk add openssh-client bash
+    - eval $(ssh-agent -s)
+    - bash -c 'ssh-add <(echo "$SSH_PRIVATE_KEY")'
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" >> ~/.ssh/config'
+  script:
+    - docker -H $SSH_PROD_HOST service update --force ${STACK_PROD_NAME}_cms --image  $TAG_LATEST --with-registry-auth
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /^master/
+  tags:
+    - docker

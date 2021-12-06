@@ -1,0 +1,38 @@
+.blankPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.warning {
+  display: flex;
+  align-items: center;
+}
+
+.warning svg {
+  color: #f76f6f;
+  font-size: 20px;
+}
+
+.warning p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.warningForm {
+  padding: 30px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.warningForm div:nth-child(2) > button {
+  margin-top: 20px;
+}
+
+.warningForm div:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}

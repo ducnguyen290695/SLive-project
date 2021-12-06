@@ -1,0 +1,13 @@
+{
+  "user_detail": "Chi tiết người dùng",
+  "birthday": "Ngày sinh",
+  "gender": "Giới tính",
+  "address": "Địa chỉ",
+  "Male": "Nam",
+  "Female": "Nữ",
+  "phone_number": "Số điện thoại",
+  "day": "ngày",
+  "week": "tuần",
+  "month": "tháng",
+  "dateRange": "Vui lòng chọn khoảng ngày"
+}

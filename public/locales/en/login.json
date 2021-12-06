@@ -1,0 +1,18 @@
+{
+  "phone_number": "Phone number",
+  "require_phone": "Phone Number is required!",
+  "password": "Password",
+  "require_password": "Password is required!",
+  "login_gg_failed": "Login with Google failed!",
+  "login_fb_failed": "Login with Facebook failed!",
+  "login_failed": "Login failed!",
+  "remember_me": "Remember me",
+  "forgot_password": "Forgot password?",
+  "login": "Login",
+  "login_with": "Login with",
+  "email": "Email",
+  "email_invalid": "Email is invalid!",
+  "sign_in_with_email": "Sign in with email",
+  "sign_in_with_phone_number": "Sign in with phone number",
+  "require_email": "Email is required!"
+}

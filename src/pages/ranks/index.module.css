@@ -1,0 +1,17 @@
+.idTag {
+  padding: 3px;
+  min-width: 50px;
+  text-align: center;
+  background-color: #c2ebfc;
+  border-radius: 20px;
+}
+
+.timeSelect {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.actionGroup {
+  display: flex;
+  justify-content: flex-end;
+}

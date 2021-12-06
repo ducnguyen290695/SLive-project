@@ -1,0 +1,21 @@
+{
+  "birthday": "Birthday",
+  "gender": "Gender",
+  "address": "Address",
+  "Male": "Male",
+  "Female": "Female",
+  "phone_number": "Phone number",
+  "confirm_delete_user": "Do you want to delete this user",
+  "delete_user_success": "Delete User Success!",
+  "delete_user_failed": "Delete User Fail!",
+  "update_user_success": "Update user success!",
+  "update_user_failed": "Update user failed!",
+  "update_user": "Update user",
+  "update_profile": "Update profile",
+  "avatar": "Avatar",
+  "cover": "Cover image",
+  "update_profile_success": "Update profile success!",
+  "update_profile_fail": "Update profile fail!",
+  "upload_avatar_fail": "Upload avatar fail!",
+  "upload_cover_fail": "Upload cover image fail!"
+}

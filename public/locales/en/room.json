@@ -1,0 +1,10 @@
+{
+  "room_name": "Room's name",
+  "memberInRoom": "Member in room",
+  "category": "Category",
+  "owner": "Owner",
+  "edit_modal" : "Edit modal",
+  "closed": "Closed",
+  "broadcasting": "Broadcasting",
+  "prepare": "Prepare"
+}

@@ -1,0 +1,19 @@
+{
+  "gift_name": "Tên quà tặng",
+  "thumbnail": "Hình ảnh",
+  "thumbnail_is_require": "Hình ảnh là bắt buộc!",
+  "animation": "Hoạt ảnh",
+  "animation_is_required": "Hoạt ảnh là bắt buộc!",
+  "price": "Giá tiền",
+  "level": "Cấp độ",
+  "duration": "Thời hạn",
+  "confirm_delete_gift": "Bạn có muốn xoá quà tặng",
+  "update_gift_success": "Cập nhật quà tặng thành công!",
+  "update_gift_failed": "Cập nhật quà tặng thất bại!",
+  "create_gift_success": "Tạo mới quà tặng thành công!",
+  "create_gift_failed": "Tạo mới quà tặng thất bại!",
+  "delete_gift_success": "Xoá quà tặng thành công!",
+  "delete_gift_failed": "Xoá quà tặng thành công!",
+  "update_gift": "Cập nhật quà tặng",
+  "create_gift": "Tạo mới quà tặng"
+}

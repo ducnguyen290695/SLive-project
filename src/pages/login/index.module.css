@@ -1,0 +1,250 @@
+.loginPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/images/login-bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginForm {
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  letter-spacing: 0.4px;
+}
+
+.loginForm label {
+  color: #939393;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.loginForm h1 {
+  color: #565555;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.loginForm form {
+  width: 80%;
+}
+
+.phoneCountryInput {
+  box-shadow: 0px 0px 1px 1px rgb(0 0 0 / 6%);
+  height: 40px;
+  padding-left: 20px;
+  background-color: #fafafa;
+}
+
+.phoneCountryInput select {
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+
+.phoneCountryInput > input {
+  width: 300px;
+  flex: unset;
+  margin-left: 13px;
+  border: unset;
+  outline-width: 0;
+  height: 100%;
+  font-size: 16px;
+  padding-left: 10px;
+  border-left: 1px solid #efefef;
+}
+
+.phoneCountryInput > input::placeholder {
+  color: rgb(191 191 191);
+}
+
+.passwordInput {
+  font-size: 16px;
+  height: 45px;
+  border: none;
+}
+
+.passwordInput input {
+  font-size: 16px;
+  height: 40px;
+}
+
+.passwordInput > span > span:nth-child(1) {
+  padding: 0;
+  border: none;
+  box-shadow: 0px 0px 1px 1px rgb(0 0 0 / 6%);
+  width: 70px;
+}
+
+.passwordInput > span > span:nth-child(2) {
+  border: none;
+  box-shadow: 0px 0px 1px 1px rgb(0 0 0 / 6%);
+  padding: 0 10px;
+}
+
+.loginButton {
+  background-color: #2742eb;
+  width: 100%;
+  border-radius: 22px;
+  font-weight: 600;
+  font-size: 17px;
+  height: 45px;
+  color: #f0f0f0;
+  outline-width: 0;
+  border: 1px solid #cccccc;
+  margin-bottom: -10px;
+  border-bottom: none;
+}
+
+.loginButton:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.checkBoxGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkBoxGroup span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #565555;
+}
+
+.checkBoxGroup > a {
+  color: #565555;
+}
+
+.socialButtonGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.facebookLoginButton {
+  width: 100%;
+  background-color: #3b5999;
+  border: 1px solid #cccccc;
+  padding: 12px 20px;
+  color: white;
+  margin-bottom: 15px;
+  cursor: pointer;
+  outline-width: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 22px;
+  border-bottom: none;
+  height: 45px;
+}
+
+.facebookLoginButton svg {
+  margin-right: 70px;
+  font-size: 26px;
+}
+
+.googleLoginButton {
+  width: 100%;
+  background-color: #dd4b39;
+  border: 1px solid #cccccc;
+  padding: 12px 20px;
+  color: white;
+  outline-width: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 22px;
+  border-bottom: none;
+  height: 45px;
+}
+
+.googleLoginButton svg {
+  margin-right: 70px;
+  font-size: 26px;
+}
+
+.googleLoginButton:hover,
+.facebookLoginButton:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* -----------------------------------For Mobile----------------------------------------- */
+@media only screen and (max-width: 767px) {
+  .loginForm {
+    width: 90%;
+  }
+
+  .loginForm h1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .checkBoxGroup span {
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+  }
+
+  .facebookLoginButton,
+  .googleLoginButton,
+  .loginButton {
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 20px;
+    height: 40px;
+    white-space: nowrap;
+  }
+
+  .googleLoginButton svg,
+  .facebookLoginButton svg {
+    margin-right: 24px;
+    font-size: 24px;
+  }
+}
+
+.activeFlag {
+  background-color: #0BC6FF;
+  padding: 5px;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.defaultFlag {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.selectLocale {
+  width: 25%;
+  margin: 10px auto;
+  display: flex;
+  height: 25px;
+  justify-content: space-between;
+}
+
+.flags {
+  cursor: pointer;
+}
+
+.mb5 {
+  margin-bottom: 10px !important;
+}
+
+.mb15 {
+  margin-bottom: 20px !important;
+  cursor: pointer;
+  text-align: center;
+  color: #1890FF;
+}

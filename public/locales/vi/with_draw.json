@@ -1,0 +1,20 @@
+{
+  "account": "Tài khoản",
+  "account_type": "Loại tài khoản",
+  "transactions": "Số giao dịch",
+  "amount": "Số lượng",
+  "bank": "Ngân hàng",
+  "note": "Ghi chú",
+  "phone_number": "Số điện thoại",
+  "gender": "Giới tính",
+  "birthday": "Ngày sinh",
+  "waiting": "Đang chờ",
+  "approved": "Đã phê duyệt",
+  "rejected": "Đã từ chối",
+  "success": "Thành công",
+  "failed": "Đã thất bại",
+  "retry": "Thử lại",
+  "user_id": "Mã người dùng",
+  "transaction_id": "Mã giao dịch",
+  "user_detail": "Chi tiết người dùng"
+}
